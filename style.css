@@ -1,0 +1,179 @@
+@font-face
+{
+	font-family : "partybusiness"; 
+	src : url('ressources/police/main/partybusiness.ttf');
+}
+
+@font-face
+{
+	font-family : "aniron"; 
+	src : url('ressources/police/titre/anicb___.ttf'),
+		url('ressources/police/titre/anicm___.ttf'),
+		url(ressources/police/titre/anirb___.ttf),
+		url(ressources/police/titre/anirm___.ttf);
+}
+
+@font-face
+{
+	font-family : "tengwar";
+	src : url(ressources/police/deco/tngan.ttf),
+		url(ressources/police/deco/tnganb.ttf),
+		url(ressources/police/deco/tnganbi.ttf),
+		url(ressources/police/deco/tngani.ttf);
+}
+
+body
+{
+	font-family : "partybusiness"; 
+}
+
+.police-titre
+{
+	font-family : "aniron";
+}
+
+.police-deco
+{
+	font-family : "tengwar"; 
+}
+
+.bg-noir
+{
+	background-image : url(ressources/bg_dark.png); 
+}
+
+.portrait
+{
+	position : relative;
+	opacity : 0.5;
+	border : 5px solid black;
+}
+
+.portrait:hover
+{
+	opacity : 1;
+}
+
+.portrait:hover .reward
+{
+	opacity : 0;
+}
+
+.bg-orange
+{
+	background-color : #FE661D;
+}
+
+.bg-white
+{
+	background-color : white;
+}
+
+.bg-gris
+{
+	background-color : #DDD; 
+}
+
+.bg-light
+{
+	background-image : url(ressources/bg_light.png); 
+}
+
+.text-orange
+{
+	color : #FE661D;
+}
+
+.text-white
+{
+	color : white;
+}
+
+.text-noir
+{
+	color : black;
+}
+
+.text-gris
+{
+	color : #DDD;
+}
+
+.prenom
+{
+	position : absolute;
+	width : inherit;
+	font-size : 4em;
+	color : white;
+	bottom : 30%;
+	left : 8%;
+}
+
+.portrait:hover .prenom
+{
+	font-size : 2.5em;
+	bottom: 5%;
+	left : 25%;
+}
+
+.portrait:hover .dead
+{
+	opacity : 0;	 
+}
+
+.reward
+{
+	position : absolute;
+	background-color : rgba(255,255,255, 0.8);
+	font-size : 2.5em;
+	top : 5%;
+	left : 2%;
+	padding : 10px;
+	border-radius : 15px; 
+}
+
+.dead
+{
+	position : absolute;
+	font-size : 2.5em;
+	top : 5%;
+	left : 30%; 
+}
+
+.prenom-dead
+{
+	text-decoration : line-through; 
+}
+
+header a
+{
+	color : white;
+}
+
+footer a
+{
+	color : white;
+}
+
+#hunted .nav-link
+{
+	color : black;
+	font-size : 1.5rem;
+}
+
+#hunted .actif
+{
+	text-decoration : underline;
+	color : #FE661D;
+}
+
+header .actif
+{
+	text-decoration : underline;
+}
+
+#carouselExampleControls .carousel-caption
+{
+	font-size : 3rem;
+	margin-bottom : 8rem; 
+}
